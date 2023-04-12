@@ -86,7 +86,7 @@ div_.text_image{
 
 div.text_image{max-width:1200px; min-height: 80vh;margin: 0 auto;display: grid;grid-template-columns: 1fr 1fr; grid-gap: var(--padding);padding:var(--padding) }
 div.text_image.KY2{grid-template-columns: 1fr 1fr 1fr;}
-
+div.text_image.letterhead{grid-template-columns: 1fr 1fr 1fr ;min-height: 20vh; background-color: #8B0000;padding: 50px;grid-gap:20px}
 
 div.text_image img{width:100%; max-height: 100vh;object-fit: contain;margin-bottom: 40px;}
 div.text_image div.txt{justify-self:center; align-self: start;max-width: 65ch;}
@@ -95,6 +95,7 @@ div.text_image div.txt{justify-self:center; align-self: start;max-width: 65ch;}
 @media screen and (orientation: portrait){
 	div.text_image{grid-template-columns: 1fr;}
 div.text_image div.txt{justify-self:start; grid-row-start:1;}
+div.text_image.letterhead{grid-template-columns: 1fr;}
 }
 
 div.cards{max-width:1200px; margin:0 auto;
@@ -112,5 +113,18 @@ background-image: url(pattern.jpg); background-position: center center; backgrou
 background-size: cover; color: #de466c; -webkit-background-clip: text;-webkit-text-fill-color:transparent;}
 
 div.hero2-txt.rtf h2{margin-top: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**/
